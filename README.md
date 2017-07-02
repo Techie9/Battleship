@@ -5,7 +5,7 @@ Battleship game using java
     the game is to destroy the opponents ships completely.
 
 Description-
-    **Classes** :
+    **Classes** : 
     
     **Board.java**
          Methods-
@@ -41,8 +41,5 @@ Description-
             _play()_
                This function starts the game between the two players
             _win()_
-               This function checks the shipCount and displays the winner of the game.
-            
-      
-      
+               This function checks the shipCount and displays the winner of the game.     
 **
