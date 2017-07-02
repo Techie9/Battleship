@@ -5,12 +5,10 @@ Battleship game using java
     the game is to destroy the opponents ships completely.
 
 Description-
-
     **Classes** :
     
-      **Board.java**
-      
-          Methods-
+    **Board.java**
+         Methods-
           _Board()_
             Constructor for initializing the 2 dimensional array grid 
       **Player.java**
