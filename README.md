@@ -5,12 +5,15 @@ Battleship game using java
     the game is to destroy the opponents ships completely.
 
 Description-
+
     **Classes** :
-      Board.java
+    
+      **Board.java**
+      
           Methods-
           _Board()_
             Constructor for initializing the 2 dimensional array grid 
-      Player.java
+      **Player.java**
             name:        Name of the player 
             hit :        Boolean variable to keep a track whether the player has shoot the target
             board :      Instance  of the Board.java class
@@ -18,7 +21,7 @@ Description-
             shipCount  : Total number of ship's 
             _Player()_
             Constructor of initializing the value of the name,hit,board,hiddenGrid,shipCount
-      Ship.java
+      **Ship.java**
             _shipPlacement()_
                   This function after verifying the input from the user calls the arrange method for placing the ship
             _checkShiplen()_
@@ -28,12 +31,12 @@ Description-
                   This functions places the ship on the grid with the specified row,col and orientation by the player
             _print()_
                 This acts as a helper function for displaying the grid after the placement of the ships
-      FleetPlacementCheck
+      **FleetPlacementCheck**
             _checkAlreadyPlaced()_
                 This function checks whether the specified loction by the player has been already occupied or not 
             _checkBoundary()_
                 This function checks whether the boundary conditions are satisfied
-      Game.java
+      **Game.java**
             _start()_
                 This function initailizes the game by calling the shipPlacement method therefore arranging the ships of the 
                 player 
