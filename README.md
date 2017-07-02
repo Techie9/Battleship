@@ -39,4 +39,3 @@ Battleship game using java
                   - This function starts the game between the two players
             - _win()_
                   - This function checks the shipCount and displays the winner of the game.     
-**
