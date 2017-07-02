@@ -1,14 +1,16 @@
-## Battleship
+# Battleship
 Battleship game using java
     Batlleship is a two player guessing game.it is played on the board on which the ships of each players are marked and 
     the location of the ships from the other player is concealed.The players shoot at each other ships where the objective of 
     the game is to destroy the opponents ships completely.
-    ## -Description-
-     # -Classes:
-       - **Board.java**
-          - _Board()_
-                   - Constructor for initializing the 2 dimensional array grid 
-       - **Player.java**
+## Description-
+
+### Classes:
+
+- **Board.java**
+   - _Board()_
+        - Constructor for initializing the 2 dimensional array grid 
+- **Player.java**
             - name:        Name of the player 
             - hit :        Boolean variable to keep a track whether the player has shoot the target
             - board :      Instance  of the Board.java class
@@ -16,7 +18,7 @@ Battleship game using java
             - shipCount  : Total number of ship's 
             - _Player()_
                   - Constructor of initializing the value of the name,hit,board,hiddenGrid,shipCount
-       - **Ship.java**
+ - **Ship.java**
             - _shipPlacement()_
                   - This function after verifying the input from the user calls the arrange method for placing the ship
             - _checkShiplen()_
