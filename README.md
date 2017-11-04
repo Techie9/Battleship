@@ -5,7 +5,7 @@ Battleship game using java
     the game is to destroy the opponents ships completely.
 ## Description :
 
-### Classes:
+### Classes :
 
 - **Board.java**
    - _Board()_
